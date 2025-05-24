@@ -9,11 +9,11 @@ export const musicasAmy = [
   },
   {
     id: 2,
-    nome: "You Know I'm No Good",
-    album: "Back to Black",
+    nome: "Fuck Me Pumps",
+    album: "Frank",
     artista: "Amy Winehouse",
-    audio: "/music/you_know_im_no_good.mp3",
-    cover: "/img/back-to-black.jpg"
+    audio: "/music/fuck_me_pumps.mp3",
+    cover: "/img/frank.jpeg"
   },
   {
     id: 3,
@@ -33,11 +33,11 @@ export const musicasAmy = [
   },
   {
     id: 5,
-    nome: "Me and Mr Jones",
-    album: "Back to Black",
+    nome: "October Song",
+    album: "Frank",
     artista: "Amy Winehouse",
-    audio: "/music/me_and_mr_jones.mp3",
-    cover: "/img/back-to-black.jpg"
+    audio: "/music/october_song.mp3",
+    cover: "/img/frank.jpeg"
   },
   {
     id: 6,
@@ -57,19 +57,19 @@ export const musicasAmy = [
   },
   {
     id: 8,
-    nome: "Fuck Me Pumps",
-    album: "Frank",
+    nome: "You Know I'm No Good",
+    album: "Back to Black",
     artista: "Amy Winehouse",
-    audio: "/music/fuck_me_pumps.mp3",
-    cover: "/img/frank.jpeg"
+    audio: "/music/you_know_im_no_good.mp3",
+    cover: "/img/back-to-black.jpg"
   },
   {
     id: 9,
-    nome: "October Song",
-    album: "Frank",
+    nome: "Me and Mr Jones",
+    album: "Back to Black",
     artista: "Amy Winehouse",
-    audio: "/music/october_song.mp3",
-    cover: "/img/frank.jpeg"
+    audio: "/music/me_and_mr_jones.mp3",
+    cover: "/img/back-to-black.jpg"
   },
   {
     id: 10,

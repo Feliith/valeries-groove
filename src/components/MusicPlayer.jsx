@@ -100,10 +100,10 @@ export default function MusicPlayer({ actualMusic, handlePreviousMusic, handleNe
                 className="absolute rounded-full max-w-[12%] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
             />
             {!actualMusic ?
-                <img src={coverImg} alt="Cover" className="absolute rounded-sm max-w-[30%] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" />
-                : <img src={coverImg} alt="Cover" className="absolute rounded-sm max-w-[30%] duration-500 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[-150%]" />
+                <img src={coverImg} alt="Cover" className="absolute rounded-sm max-w-[31%] duration-500 ease-in-out top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" />
+                : <img src={coverImg} alt="Cover" className="absolute rounded-sm max-w-[31%] duration-500 ease-in-out top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[-150%]" />
             }
-            <footer className="bg-[#212121] w-full h-[10vh] flex items-center justify-around absolute bottom-0 left-0 z-10">
+            <footer className="bg-[#212121] w-full h-[10vh] border-t-1 border-gray-500 flex items-center justify-around absolute bottom-0 left-0 z-10">
                 <input
                     type="range"
                     min={0}
@@ -115,7 +115,7 @@ export default function MusicPlayer({ actualMusic, handlePreviousMusic, handleNe
                         soundRef.current.seek(val)
                         setCurrentTime(val)
                     }}
-                    className="w-full absolute top-[-8px]"
+                    className={`w-full absolute top-[-12px] ${!actualMusic && "hidden"}`}
                 />
                 {actualMusic &&
                     <div className="relative flex items-center justify-center">
@@ -152,7 +152,7 @@ export default function MusicPlayer({ actualMusic, handlePreviousMusic, handleNe
                     </div>
                 }
                 {actualMusic &&
-                <div className="absolute w-[40%] h-full left-0 bottom-[-12px]">
+                <div className="absolute flex items-center justify-center w-[40%] h-full left-0">
                     <img src={coverSrc} alt="cover" className="absolute h-[54px] left-[20px]" />
                     <div className="absolute left-[90px]">
                         <p className="p-0">
